@@ -1,6 +1,7 @@
 import '../../style/Folders/ActiveFolderBar.css'
 import bigfoldericon from '../../assets/icons/bigfoldericon.png'
 import StatBarSuccessRate from './StatBarSuccessRate'
+import blackarchivefoldericon from '../../assets/icons/blackarchivefoldericon.png'
 
 function ActiveFolderBar() {
     return (
@@ -17,10 +18,24 @@ function ActiveFolderBar() {
             <div className='colStatsContainer'>
                     <span className='heading'>Heading</span>
                     <StatBarSuccessRate/>
-                    <span className='secTextColor'>State 1 : 00 / State 2 : 00</span>
+                    <span className='secTextColor' style={{marginTop:'8px'}}>State 1 : 00 / State 2 : 00</span>
             </div>
             <div className='separator'/>
-            <div className='separator mgLeftAuto'/>
+            <div className='separator mgLeftAuto' style={{marginRight:'30px'}}/>
+            <div style={{display:'flex', columnGap:'15px', paddingRight:'10px'}}>
+                <button className='smallCommonButton' type="button">
+                    <img src={blackarchivefoldericon} alt=""/>
+                </button>
+                <button className='smallCommonButton' type="button">
+                    <img src={blackarchivefoldericon} alt=""/>
+                </button>
+                <button className='smallCommonButton' type="button">
+                    <img src={blackarchivefoldericon} alt=""/>
+                </button>
+                <button className='smallCommonButton' type="button">
+                    <img src={blackarchivefoldericon} alt=""/>
+                </button>
+            </div>
         </article>
     )
 }

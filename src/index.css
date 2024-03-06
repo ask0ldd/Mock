@@ -16,6 +16,7 @@
   --main-orange-color: #d02d1c;
   --main-text-color: #020611;
   --sec-text-color: #60626c;
+  --grey-lightbuttons-border-color: #c6c8ca;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -75,7 +76,12 @@ h1 {
 }
 
 .mainButton {
-  background-color: var(--main-orange-color);
+  background: radial-gradient(
+      circle at 65%,
+      rgba(255, 150, 169, 0.35) 0%,
+      var(--main-orange-color) 50%
+    ),
+    var(--main-orange-color);
   border: none;
   border-radius: 6px;
   color: #fff;

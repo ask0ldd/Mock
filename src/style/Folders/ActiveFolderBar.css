@@ -8,12 +8,12 @@
   border: 1px solid var(--main-border-color);
   border-radius: 10px;
   padding: 20px;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
 }
 
 .activeFolderContainer .folderIconContainer {
   background-color: #f5f6f8;
-  border: 1px solid #c6c8ca;
+  border: 1px solid var(--grey-lightbuttons-border-color);
   height: 70px;
   width: 70px;
   display: flex;
@@ -31,13 +31,6 @@
   flex-direction: column;
   margin-left: 20px;
   height: 100%;
-}
-
-.activeFolderContainer .colStatsContainer {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  row-gap: 7px;
 }
 
 .activeFolderContainer .secTextColor,
@@ -66,6 +59,36 @@
   margin: 0 40px;
 }
 
-.mgLeftAuto {
+.activeFolderContainer .colStatsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.activeFolderContainer .colStatsContainer .heading {
+  font-size: 16px;
+  font-weight: 600;
+  transform: translateY(-4px);
+}
+
+.activeFolderContainer .separator.mgLeftAuto {
   margin-left: auto;
+}
+
+.smallCommonButton {
+  height: 48px;
+  width: 48px;
+  background-color: #f5f6f8;
+  border: 1px solid var(--grey-lightbuttons-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.smallCommonButton img {
+  height: 22px;
+  width: 22px;
 }

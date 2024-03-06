@@ -5,6 +5,7 @@
   border-radius: 10px;
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: 4px;
 }
 
 .barContainer .greenBar {
