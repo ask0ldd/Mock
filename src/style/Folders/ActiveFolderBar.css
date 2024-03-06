@@ -11,6 +11,26 @@
   /*opacity: 0.9;*/
 }
 
+.activeFolderContainer:hover {
+  background-color: #fff6f5;
+  border: 1px solid #cd8981;
+  box-shadow: 0 4px 8px rgba(210, 52, 36, 0.22);
+}
+
+.activeFolderContainer:hover .folderIconContainer {
+  background: radial-gradient(
+      circle at 0%,
+      rgba(255, 150, 169, 0.7) 0%,
+      var(--main-orange-color) 100%
+    ),
+    var(--main-orange-color);
+  border: 2px solid #a0231b;
+}
+
+.activeFolderContainer:hover .folderIconContainer svg path {
+  fill: #fff;
+}
+
 .activeFolderContainer .folderIconContainer {
   background-color: #f5f6f8;
   border: 1px solid var(--grey-lightbuttons-border-color);
@@ -91,4 +111,19 @@
 .smallCommonButton img {
   height: 22px;
   width: 22px;
+}
+
+.smallCommonButton:hover {
+  background: radial-gradient(
+      circle at 0%,
+      rgba(255, 150, 169, 0.7) 0%,
+      var(--main-orange-color) 100%
+    ),
+    var(--main-orange-color);
+  border: 2px solid #a0231b;
+  cursor: pointer;
+}
+
+.smallCommonButton:hover svg path {
+  fill: #fff;
 }

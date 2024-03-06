@@ -61,9 +61,8 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  width: 100vw;
   min-height: 100vh;
-  overflow: hidden;
+  width: 100%;
   --main-bg-color: #f1f2f2;
   --sec-bg-color: #ffffff;
   background-color: var(--main-bg-color);
@@ -89,4 +88,13 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+
+.mainButton:hover {
+  background: /*rgba(255, 255, 255, 0.1),*/ radial-gradient(
+      circle at 65%,
+      rgba(255, 150, 169, 0.6) 0%,
+      var(--main-orange-color) 50%
+    ),
+    var(--main-orange-color);
 }
