@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import ActiveFolders from './ActiveFolders.tsx'
 import './index.css'
+import CustomRouter from './components/CustomRouter.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ActiveFolders />
+    <CustomRouter />
   </React.StrictMode>,
 )

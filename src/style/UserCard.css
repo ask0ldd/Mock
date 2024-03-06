@@ -1,0 +1,28 @@
+article.userCard {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 33.33%;
+  min-height: 220px;
+  background-color: var(--sec-bg-color);
+  border: 1px solid var(--main-border-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+article.userCard:hover {
+  background-color: #fff6f5;
+  border: 1px solid #cd8981;
+  box-shadow: 0 4px 8px rgba(210, 52, 36, 0.22),
+    0 8px 16px rgb(208, 45, 28, 0.08);
+  cursor: pointer;
+}
+
+article.userCard .leftSide {
+  display: flex;
+  flex-direction: column;
+}
+
+article.userCard .rightSide {
+  display: flex;
+  flex-direction: column;
+}

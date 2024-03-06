@@ -1,7 +1,7 @@
 import './ActiveFolders.css'
-import Header from './components/Header'
-import MainNavBar from './components/MainNavBar'
-import ActiveFolderBar from './components/Folders/ActiveFolderBar'
+import Header from '../components/Header'
+import MainNavBar from '../components/MainNavBar'
+import ActiveFolderBar from '../components/Folders/ActiveFolderBar'
 
 function ActiveFolders() {
 
