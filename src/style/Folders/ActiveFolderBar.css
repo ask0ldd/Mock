@@ -14,7 +14,9 @@
 .activeFolderContainer:hover {
   background-color: #fff6f5;
   border: 1px solid #cd8981;
-  box-shadow: 0 4px 8px rgba(210, 52, 36, 0.22);
+  box-shadow: 0 4px 8px rgba(210, 52, 36, 0.22),
+    0 8px 16px rgb(208, 45, 28, 0.08);
+  cursor: pointer;
 }
 
 .activeFolderContainer:hover .folderIconContainer {

@@ -76,6 +76,14 @@ nav .menuSeparators {
   height: 21px;
 }
 
+.menuItemsContainer .menuItem svg {
+  margin-left: 18px;
+  margin-right: 17px;
+  /* temporary */
+  width: 23px;
+  height: 21px;
+}
+
 .menuItemsContainer .menuItem.active {
   background-color: var(--selected-bg-color);
   color: var(--main-orange-color);
@@ -89,4 +97,8 @@ nav .menuSeparators {
 
 .menuItemsContainer .menuItem:hover .decorator {
   background-color: var(--main-orange-color);
+}
+
+.menuItemsContainer .menuItem:hover svg path {
+  fill: var(--main-orange-color);
 }
