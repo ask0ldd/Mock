@@ -11,7 +11,7 @@ function App() {
       <main>
         <MainNavBar/>
         <section className='activeFolderBody'>
-          <h1>Main Crumb / Sub Crumb</h1>
+          <h1>Main / Sub Crumb</h1>
           <div className='buttonsInputsSearchBarContainer'>
             <button className='mainButton'>Button Text</button>
             <div className='separator'/>
@@ -19,6 +19,9 @@ function App() {
             <input className='select'/>
           </div>
           <div className='activeFoldersContainer'>
+            <ActiveFolderBar/>
+            <ActiveFolderBar/>
+            <ActiveFolderBar/>
             <ActiveFolderBar/>
             <ActiveFolderBar/>
             <ActiveFolderBar/>

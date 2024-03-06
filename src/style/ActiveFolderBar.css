@@ -1,13 +1,13 @@
 .activeFolderContainer {
   background-color: var(--sec-bg-color);
   width: 100%;
-  height: 100px;
+  height: 110px;
   display: flex;
-  max-height: 100px;
+  max-height: 110px;
   flex-direction: row;
   border: 1px solid var(--main-border-color);
   border-radius: 10px;
-  padding: 15px;
+  padding: 20px;
 }
 
 .activeFolderContainer .folderIconContainer {
@@ -23,4 +23,30 @@
 
 .activeFolderContainer .folderIcon {
   width: 36px;
+}
+
+.activeFolderContainer .colMainDatasContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  height: 100%;
+}
+
+.activeFolderContainer .colMainDatasContainer .secTextColor,
+.activeFolderContainer .colMainDatasContainer a {
+  color: var(--sec-text-color);
+}
+
+.activeFolderContainer .colMainDatasContainer a {
+  text-decoration: underline;
+}
+
+.activeFolderContainer .colMainDatasContainer .heading {
+  font-size: 18px;
+  font-weight: 700;
+  transform: translateY(-6px);
+}
+
+.activeFolderContainer .colMainDatasContainer .TYminus3 {
+  transform: translateY(-3px);
 }
