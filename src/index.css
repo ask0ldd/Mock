@@ -41,6 +41,13 @@
   font-style: normal;
 }
 
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .manrope-semiBold {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
@@ -64,4 +71,15 @@ h1 {
   font-size: 28px;
   color: var(--main-text-color);
   width: fit-content;
+}
+
+.mainButton {
+  background-color: var(--main-orange-color);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }

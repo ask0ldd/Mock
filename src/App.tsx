@@ -10,8 +10,14 @@ function App() {
       <Header/>
       <main>
         <MainNavBar/>
-        <section className='realBody'>
+        <section className='activeFolderBody'>
           <h1>Main Crumb / Sub Crumb</h1>
+          <div className='buttonsInputsSearchBarContainer'>
+            <button className='mainButton'>Button Text</button>
+            <div className='separator'/>
+            <input className='searchInput'/>
+            <input className='select'/>
+          </div>
           <div className='activeFoldersContainer'>
             <ActiveFolderBar/>
             <ActiveFolderBar/>
