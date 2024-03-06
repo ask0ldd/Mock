@@ -1,0 +1,26 @@
+.activeFolderContainer {
+  background-color: var(--sec-bg-color);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  max-height: 100px;
+  flex-direction: row;
+  border: 1px solid var(--main-border-color);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.activeFolderContainer .folderIconContainer {
+  background-color: #f5f6f8;
+  border: 1px solid #c6c8ca;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeFolderContainer .folderIcon {
+  width: 36px;
+}
