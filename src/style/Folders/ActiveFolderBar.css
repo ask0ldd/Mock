@@ -8,6 +8,7 @@
   border: 1px solid var(--main-border-color);
   border-radius: 10px;
   padding: 20px;
+  opacity: 0.9;
 }
 
 .activeFolderContainer .folderIconContainer {
@@ -32,7 +33,14 @@
   height: 100%;
 }
 
-.activeFolderContainer .colMainDatasContainer .secTextColor,
+.activeFolderContainer .colStatsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 7px;
+}
+
+.activeFolderContainer .secTextColor,
 .activeFolderContainer .colMainDatasContainer a {
   color: var(--sec-text-color);
 }
@@ -49,4 +57,15 @@
 
 .activeFolderContainer .colMainDatasContainer .TYminus3 {
   transform: translateY(-3px);
+}
+
+.activeFolderContainer .separator {
+  background-color: #e6e6e6;
+  width: 1px;
+  height: 100%;
+  margin: 0 40px;
+}
+
+.mgLeftAuto {
+  margin-left: auto;
 }

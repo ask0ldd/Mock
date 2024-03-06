@@ -1,5 +1,6 @@
-import '../style/ActiveFolderBar.css'
-import bigfoldericon from '../assets/icons/bigfoldericon.png'
+import '../../style/Folders/ActiveFolderBar.css'
+import bigfoldericon from '../../assets/icons/bigfoldericon.png'
+import StatBarSuccessRate from './StatBarSuccessRate'
 
 function ActiveFolderBar() {
     return (
@@ -12,6 +13,14 @@ function ActiveFolderBar() {
                     <span className='secTextColor TYminus3'>Prim State : 26/11/2024  - Sec State : 28/12/2024</span>
                     <span className='secTextColor'>URL : <a href="#">http://www.randomwebsite.com/randomressource</a></span>
             </div>
+            <div className='separator'/>
+            <div className='colStatsContainer'>
+                    <span className='heading'>Heading</span>
+                    <StatBarSuccessRate/>
+                    <span className='secTextColor'>State 1 : 00 / State 2 : 00</span>
+            </div>
+            <div className='separator'/>
+            <div className='separator mgLeftAuto'/>
         </article>
     )
 }

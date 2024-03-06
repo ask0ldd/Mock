@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import MainNavBar from './components/MainNavBar'
-import ActiveFolderBar from './components/ActiveFolderBar'
+import ActiveFolderBar from './components/Folders/ActiveFolderBar'
 
 function App() {
 
