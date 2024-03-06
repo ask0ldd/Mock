@@ -1,0 +1,37 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: var(--sec-bg-color);
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+header figure {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: left;
+  padding-left: 40px;
+  align-items: center;
+  width: 360px;
+  height: 100%;
+  color: #d02d1c;
+  font-size: 24px;
+  border-right: 1px solid var(--main-border-color);
+}
+
+header .mainpanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-right: 50px;
+}
+
+header .mainpanel .avatar {
+  border-radius: 100%;
+  border: 2px solid var(--main-text-color);
+}

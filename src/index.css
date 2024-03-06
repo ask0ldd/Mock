@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --main-bg-color: #f1f2f2;
+  --sec-bg-color: #ffffff;
+  --selected-bg-color: #fff2f1;
+  --main-border-color: #cbcbcb;
+  --main-orange-color: #d02d1c;
+  --main-text-color: #020611;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: var(--main-bg-color);
+  color-scheme: light dark;
+  color: #020611;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jost-500 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.manrope-extraBold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-semiBold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  --main-bg-color: #f1f2f2;
+  --sec-bg-color: #ffffff;
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+  font-size: 28px;
+}
