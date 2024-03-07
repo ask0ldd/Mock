@@ -7,6 +7,15 @@ header {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid var(--main-border-color);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header.shadow {
+  box-shadow: 0px 2px 4px rgba(163, 163, 163, 0.2),
+    0px 4px 8px rgba(202, 202, 202, 0.2);
+  border-color: #fff;
 }
 
 header figure {
@@ -16,7 +25,7 @@ header figure {
   justify-content: left;
   padding-left: 40px;
   align-items: center;
-  width: 360px;
+  width: 320px;
   height: 100%;
   color: #d02d1c;
   font-size: 24px;
