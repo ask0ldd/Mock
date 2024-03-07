@@ -1,7 +1,7 @@
 import '../style/UserCard.css'
 
+// Composant principal de la page Users
 function UserCard({avatarFileName, role} : {avatarFileName : string, role : string} ){
-
 
     const roleClasses : IRoleClasses = {
         "SUPERHERO" : "tagSuperHero",

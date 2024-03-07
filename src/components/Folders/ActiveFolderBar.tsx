@@ -1,8 +1,7 @@
 import '../../style/Folders/ActiveFolderBar.css'
-// import bigfoldericon from '../../assets/icons/bigfoldericon.png'
 import StatBarSuccessRate from './StatBarSuccessRate'
-// import blackarchivefoldericon24 from '../../assets/icons/blackarchivefoldericon24.svg'
 
+// Composant principal de la page ActiveFolders
 function ActiveFolderBar({ratio} : {ratio : number}) {
     return (
         <article className='activeFolderContainer shadow'>
