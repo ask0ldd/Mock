@@ -1,7 +1,7 @@
 nav {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 320px;
   border-right: 1px solid var(--main-border-color);
   height: 100%;
   background-color: var(--sec-bg-color);
@@ -9,6 +9,12 @@ nav {
   justify-content: left;
   padding: 24px 20px 0 20px;
   flex-shrink: 0;
+}
+
+nav.shadow {
+  box-shadow: 2px 0px 4px rgba(163, 163, 163, 0.2),
+    4px 0px 8px rgba(202, 202, 202, 0.2);
+  border-color: #fff;
 }
 
 ul {
@@ -90,8 +96,15 @@ nav .menuSeparators {
 }
 
 .menuItemsContainer .menuItem:hover {
-  background-color: var(--selected-bg-color);
-  color: var(--main-orange-color);
+  /*background-color: var(--selected-bg-color);
+  color: var(--main-orange-color);*/
+  background: /*rgba(255, 255, 255, 0.1),*/ radial-gradient(
+      circle at 65%,
+      rgba(255, 150, 169, 0.6) 0%,
+      var(--main-orange-color) 50%
+    ),
+    var(--main-orange-color);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -99,6 +112,10 @@ nav .menuSeparators {
   background-color: var(--main-orange-color);
 }
 
+/*.menuItemsContainer .menuItem:hover .decorator {
+  background: #fff;
+}*/
+
 .menuItemsContainer .menuItem:hover svg path {
-  fill: var(--main-orange-color);
+  fill: #fff;
 }
