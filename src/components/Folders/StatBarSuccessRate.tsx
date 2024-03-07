@@ -1,9 +1,12 @@
 import '../../style/Folders/StatBarSuccessRate.css'
 
-function StatBarSuccessRate(){
+function StatBarSuccessRate({ratio} : {ratio : number}){
+
+    if(ratio > 1) ratio = 1
+
     return(
         <div className="barContainer">
-            <div className="greenBar">
+            <div style={{width:ratio * 250+'px'}} className="greenBar">
             </div>
         </div>
     )

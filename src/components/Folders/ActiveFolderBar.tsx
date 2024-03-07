@@ -3,9 +3,9 @@ import '../../style/Folders/ActiveFolderBar.css'
 import StatBarSuccessRate from './StatBarSuccessRate'
 // import blackarchivefoldericon24 from '../../assets/icons/blackarchivefoldericon24.svg'
 
-function ActiveFolderBar() {
+function ActiveFolderBar({ratio} : {ratio : number}) {
     return (
-        <article className='activeFolderContainer'>
+        <article className='activeFolderContainer shadow'>
             <figure className='folderIconContainer'>
                 <svg className='folderIcon' width="42" height="34" viewBox="0 0 42 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.2 0C1.869 0 0 1.869 0 4.2V29.4C0 30.5139 0.442499 31.5822 1.23015 32.3698C2.0178 33.1575 3.08609 33.6 4.2 33.6H37.8C38.9139 33.6 39.9822 33.1575 40.7698 32.3698C41.5575 31.5822 42 30.5139 42 29.4V8.4C42 7.28609 41.5575 6.2178 40.7698 5.43015C39.9822 4.6425 38.9139 4.2 37.8 4.2H21L16.8 0H4.2ZM4.2 8.4H37.8V29.4H4.2V8.4ZM21 10.5V14.7H27.3V10.5H21ZM29.4 10.5V14.7H35.7V10.5H29.4ZM21 16.8V21H27.3V16.8H21ZM29.4 16.8V21H35.7V16.8H29.4ZM21 23.1V27.3H27.3V23.1H21ZM29.4 23.1V27.3H35.7V23.1H29.4Z" fill="#020611"/>
@@ -13,13 +13,13 @@ function ActiveFolderBar() {
             </figure>
             <div className='colMainDatasContainer'>
                     <span className='heading'>Heading</span>
-                    <span className='secTextColor TYminus3'>Prim State : 26/11/2024  - Sec State : 28/12/2024</span>
+                    <span className='secTextColor TYminus4'>Prim State : 26/11/2024  - Sec State : 28/12/2024</span>
                     <span className='secTextColor'>URL : <a href="#">http://www.randomwebsite.com/randomressource</a></span>
             </div>
             <div className='separator'/>
             <div className='colStatsContainer'>
                     <span className='heading'>Heading</span>
-                    <StatBarSuccessRate/>
+                    <StatBarSuccessRate ratio={ratio}/>
                     <span className='secTextColor' style={{marginTop:'8px'}}>State 1 : 00 / State 2 : 00</span>
             </div>
             <div className='separator'/>
