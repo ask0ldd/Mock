@@ -98,3 +98,15 @@ h1 {
     ),
     var(--main-orange-color);
 }
+
+.secondaryButton {
+  border: 1px solid var(--secondary-orange-color);
+  color: rgba(224, 81, 76, 0.9);
+  border-radius: 6px;
+  box-shadow: 0 8px 16px rgba(208, 45, 28, 0.1);
+  background-color: var(--sec-bg-color);
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}

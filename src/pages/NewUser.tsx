@@ -25,8 +25,8 @@ return(
             <form className='formBody'>
                 <div className='leftPanel'>
                     <div className='labelInputGroup'>
-                        <label>Nom <span style={{color:'#DC4E49'}}>*</span></label>
-                        <input type="text"></input>
+                        <label id="namelabel">Nom <span style={{color:'#DC4E49'}}>*</span></label>
+                        <input aria-labelledby='namelabel' type="text"></input>
                     </div>
                     <div className='labelInputGroup'>
                         <label>Prénom <span style={{color:'#DC4E49'}}>*</span></label>
@@ -62,9 +62,9 @@ return(
                         <label>Expiration</label>
                         <input type="text"></input>
                     </div>
-                    <div className='labelInputGroup'>
-                        <label>Téléphone</label>
-                        <input type="text"></input>
+                    <div className='buttonsGroup'>
+                        <button className='secondaryButton'>Action 1</button>
+                        <button className='mainButton' style={{boxShadow: '0 8px 16px rgba(208, 45, 28, 0.2)'}}>Action 2</button>
                     </div>
                 </div>
             </form>

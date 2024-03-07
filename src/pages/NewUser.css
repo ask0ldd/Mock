@@ -89,6 +89,7 @@ main .userFormContainer {
   border: 2px solid #fff;
   width: 29px;
   height: 29px;
+  padding-bottom: 1px;
 }
 
 .userFormContainer .formHeader .formStep .circle.color1 {
@@ -146,4 +147,19 @@ main .userFormContainer {
   display: flex;
   flex-direction: column;
   row-gap: 25px;
+}
+
+.userFormContainer .formBody .buttonsGroup {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  margin-top: auto;
+}
+
+.userFormContainer .formBody .buttonsGroup button {
+  display: flex;
+  flex: 1 1 50%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
 }
