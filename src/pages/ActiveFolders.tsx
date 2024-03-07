@@ -19,12 +19,12 @@ function ActiveFolders() {
             <input className='select'/>
           </div>
           <div className='activeFoldersContainer'>
-            <ActiveFolderBar/>
-            <ActiveFolderBar/>
-            <ActiveFolderBar/>
-            <ActiveFolderBar/>
-            <ActiveFolderBar/>
-            <ActiveFolderBar/>
+            <ActiveFolderBar ratio={0.7}/>
+            <ActiveFolderBar ratio={0.8}/>
+            <ActiveFolderBar ratio={0.3}/>
+            <ActiveFolderBar ratio={0.6}/>
+            <ActiveFolderBar ratio={0.2}/>
+            <ActiveFolderBar ratio={0.5}/>
           </div>
         </section>
       </main>

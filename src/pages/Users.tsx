@@ -18,13 +18,13 @@ function Users() {
           </div>
           <div className='usersCardsContainer'>
             <div className='rowCardsContainer'>
-              <UserCard/><UserCard/><UserCard/>
+              <UserCard avatarFileName="avatar0.png" role="SUPERHERO"/><UserCard avatarFileName="avatar1.png" role="HERO"/><UserCard avatarFileName="avatar2.png" role="SUPERHERO"/>
             </div>
             <div className='rowCardsContainer'>
-              <UserCard/><UserCard/><UserCard/>
+              <UserCard avatarFileName="avatar3.png" role="HERO"/><UserCard avatarFileName="avatar4.png" role="HERO"/><UserCard avatarFileName="avatar5.png" role="HERO"/>
             </div>
             <div className='rowCardsContainer'>
-              <UserCard/><UserCard/><UserCard/>
+              <UserCard avatarFileName="avatar6.png" role="HERO"/><UserCard avatarFileName="avatar7.png" role="HERO"/><UserCard avatarFileName="avatar8.png" role="HERO"/>
             </div>  
           </div>
         </section>
