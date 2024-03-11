@@ -51,7 +51,7 @@ nav .menuSeparators {
 }
 
 .menuItemsContainer .menuItem {
-  height: 50px;
+  height: 45px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ nav .menuSeparators {
 }
 
 .menuItemsContainer .menuItem .decorator {
-  height: 28px;
+  height: 23px;
   width: 5px;
   border-radius: 0 5px 5px 0;
   background-color: var(--sec-bg-color);
@@ -75,19 +75,19 @@ nav .menuSeparators {
 }
 
 .menuItemsContainer .menuItem img {
-  margin-left: 18px;
+  margin-left: 17px;
   margin-right: 17px;
   /* temporary */
-  width: 23px;
-  height: 21px;
+  width: 21px;
+  height: 18px;
 }
 
 .menuItemsContainer .menuItem svg {
-  margin-left: 18px;
+  margin-left: 17px;
   margin-right: 17px;
   /* temporary */
-  width: 23px;
-  height: 21px;
+  width: 21px;
+  height: 18px;
 }
 
 .menuItemsContainer .menuItem.active {
