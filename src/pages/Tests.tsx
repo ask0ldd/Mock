@@ -13,36 +13,43 @@ function Tests(){
                 <div className="titleInputsButtonsContainer">
                     <h1>Tests /</h1><input></input>
                 </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>[]</th>
-                            <th>Column 1</th>
-                            <th>Col 2</th>
-                            <th>Col 3</th>
-                            <th>Column 4</th>
-                            <th>Column 5</th>
-                            <th>Col 6</th>
-                            <th>Column 7</th>
-                            <th>Column 8</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {[0,1,2,3,4,5,6,7,8,9].map((_) => (
+                <div className="tableContainer">
+                    <table>
+                        <thead>
                             <tr>
-                                <td>[]</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>)
-                        )}
-                    </tbody>
-                </table>
+                                <th className="checkboxCell"><div className="customCheckbox"></div></th>
+                                <th>Column 1</th>
+                                <th>Col 2</th>
+                                <th>Col 3</th>
+                                <th>Column 4</th>
+                                <th>Column 5</th>
+                                <th>Col 6</th>
+                                <th>Column 7</th>
+                                <th>Column 8</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {[0,1,2,3,4,5,6,7,8,9].map((_) => (
+                                <tr>
+                                    <td className="checkboxCell"><div className="customCheckbox"></div></td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>)
+                            )}
+                        </tbody>
+                    </table>
+                    <div className="tableBottomContainer">
+                        <label>Showing 1 to 10 of 100 Items</label>
+                        <label>123 Items sélectionnés</label>
+                        <div>[1][2][3]</div>
+                    </div>
+                </div>
             </section>
         </main>
     </>)
