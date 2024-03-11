@@ -1,0 +1,56 @@
+#root {
+  /*max-width: 1280px;*/
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+
+main .testsBody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: left;
+  align-items: left;
+  padding: 30px 50px 2rem 50px;
+}
+
+.testsBody .titleInputsButtonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.testsBody table {
+  margin-top: 20px;
+  border: 1px solid #c3c4c4;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  border-collapse: collapse;
+}
+
+.testsBody table tr {
+  height: 45px;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.testsBody table td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testsBody table tr:nth-child(even) {
+  background-color: #fbfbfb;
+}

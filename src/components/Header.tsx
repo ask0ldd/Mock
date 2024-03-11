@@ -3,7 +3,7 @@ import mainAvatar from'../assets/avatars/avatar1.jpg'
 
 function Header(){
     return(
-    <header className='shadow'>
+    <header>
         <figure className='manrope-extraBold'>
             Mock Logo
         </figure>

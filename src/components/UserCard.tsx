@@ -13,7 +13,7 @@ function UserCard({avatarFileName, role} : {avatarFileName : string, role : stri
     const maxHeadingLength = 20
 
     return(
-        <article className='userCard shadow'>
+        <article className='userCard'>
             <div className='leftSide'>
                 <h2>{heading.length > maxHeadingLength ? heading.slice(0,maxHeadingLength) + '...' : heading} </h2>
                 <span>Subheading</span>

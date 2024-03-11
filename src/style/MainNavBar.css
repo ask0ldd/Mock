@@ -32,7 +32,7 @@ nav .menuSeparators {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-bottom: 36px;
+  padding-bottom: 31px;
 }
 
 .menuSectionContainer.topMg {
@@ -51,7 +51,7 @@ nav .menuSeparators {
 }
 
 .menuItemsContainer .menuItem {
-  height: 45px;
+  height: 47px;
   width: 100%;
   display: flex;
   align-items: center;

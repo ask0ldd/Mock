@@ -4,7 +4,7 @@ import redfoldermenuicon from '../assets/icons/redfoldermenuicon.png'
 
 function MainNavBar(){
     return(
-    <nav className='shadow'>
+    <nav>
         <ul>
             <li className='menuSectionContainer'>
                 <span className='title jost-500'>MENU TITLE 1</span>
