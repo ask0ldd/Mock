@@ -43,6 +43,8 @@ main .testsBody {
   background-color: white;
   border-collapse: collapse;
   overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  padding: 0;
 }
 
 .testsBody table .customCheckbox {
@@ -68,7 +70,7 @@ main .testsBody {
 }
 
 .testsBody table td,
-th {
+.testsBody table th {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,3 +103,9 @@ th {
   flex: 0 0 50px;
   padding: 0;
 }
+
+/*table thead tr {
+  border: 2px solid orange;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}*/

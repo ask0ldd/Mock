@@ -17,7 +17,7 @@ function Tests(){
                     <table>
                         <thead>
                             <tr>
-                                <th className="checkboxCell"><div className="customCheckbox"></div></th>
+                                <th className="checkboxCell borderRadiusTopLeft10"><div className="customCheckbox"></div></th>
                                 <th>Column 1</th>
                                 <th>Col 2</th>
                                 <th>Col 3</th>
