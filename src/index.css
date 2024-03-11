@@ -20,7 +20,7 @@
   --sec-text-color: #60626c;
   --grey-lightbuttons-border-color: #c6c8ca;
   --main-bg-inputtext-color: #f3f3f3;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   background-color: var(--main-bg-color);
@@ -46,6 +46,7 @@
   font-style: normal;
 }
 
+/*
 .manrope-bold {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
@@ -58,7 +59,7 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-}
+}*/
 
 body {
   margin: 0;
@@ -85,7 +86,8 @@ h1 {
   border: none;
   border-radius: 6px;
   color: #fff;
-  font-family: "Manrope", sans-serif;
+  font-family: Inter, sans-serif;
+  /*font-family: "Manrope", sans-serif;*/
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -107,7 +109,8 @@ h1 {
   border-radius: 6px;
   box-shadow: 0 8px 16px rgba(208, 45, 28, 0.1);
   background-color: var(--sec-bg-color);
-  font-family: "Manrope", sans-serif;
+  /*font-family: "Manrope", sans-serif;*/
+  font-family: Inter, sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;

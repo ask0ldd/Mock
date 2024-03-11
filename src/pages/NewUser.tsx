@@ -13,13 +13,13 @@ return(
           <div className='userFormContainer'>
             <div className="formHeader">
                 <div className="formStep colors1">
-                    <div className='circle color1'>1</div><span className='formStepTitle'>Form Step</span>
+                    <div className='circle color1 pdr1'>1</div><span className='formStepTitle'>Form Step</span>
                 </div>
                 <div className="formStep colors2">
                     <div className='circle color2'>2</div><span className='formStepTitle'>Form Step</span>
                 </div>
                 <div className="formStep colors3">
-                    <div className='circle color3'>3</div><span className='formStepTitle'>Form Step</span>
+                    <div className='circle color3 pdr1'>3</div><span className='formStepTitle'>Form Step</span>
                 </div>
             </div>
             <form className='formBody'>

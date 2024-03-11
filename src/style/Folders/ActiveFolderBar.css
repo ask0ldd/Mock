@@ -74,6 +74,7 @@
   flex-direction: column;
   margin-left: 20px;
   height: 100%;
+  row-gap: 2px;
 }
 
 .activeFolderContainer .secTextColor,
@@ -87,8 +88,13 @@
 
 .activeFolderContainer .colMainDatasContainer .heading {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   transform: translateY(-6px);
+}
+
+.colMainDatasContainer .secText,
+.colStatsContainer {
+  font-size: 14px;
 }
 
 .activeFolderContainer .colMainDatasContainer .TYminus4 {

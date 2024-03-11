@@ -15,10 +15,10 @@ function UserCard({avatarFileName, role} : {avatarFileName : string, role : stri
     return(
         <article className='userCard'>
             <div className='leftSide'>
-                <h2>{heading.length > maxHeadingLength ? heading.slice(0,maxHeadingLength) + '...' : heading} </h2>
-                <span>Subheading</span>
-                <span>XXXXXXXXXXXXXXXXXXXX</span>
-                <span className='fs14'>State : 12/13/2024</span>
+                <h2 style={{marginTop:'-2px'}}>{heading.length > maxHeadingLength ? heading.slice(0,maxHeadingLength) + '...' : heading} </h2>
+                <span style={{marginTop:'1px'}}>Subheading</span>
+                <span style={{marginTop:'8px'}}>XXXXXXXXXXXXXXXXXXXX</span>
+                <span style={{marginTop:'9px'}} className='fs14'>State : 12/13/2024</span>
                 <div className={roleClasses[role as keyof IRoleClasses]}>{role.toUpperCase()}</div>
             </div>
             <div className='rightSide'>

@@ -12,14 +12,14 @@ function ActiveFolderBar({ratio} : {ratio : number}) {
             </figure>
             <div className='colMainDatasContainer'>
                     <span className='heading'>Heading</span>
-                    <span className='secTextColor TYminus4'>Prim State : 26/11/2024  - Sec State : 28/12/2024</span>
-                    <span className='secTextColor'>URL : <a href="#">http://www.randomwebsite.com/randomressource</a></span>
+                    <span className='secText secTextColor TYminus4'>Prim State : 26/11/2024  - Sec State : 28/12/2024</span>
+                    <span className='secText secTextColor'>URL : <a href="#">http://www.randomwebsite.com/randomressource</a></span>
             </div>
             <div className='separator'/>
             <div className='colStatsContainer'>
                     <span className='heading'>Heading</span>
                     <StatBarSuccessRate ratio={ratio}/>
-                    <span className='secTextColor' style={{marginTop:'8px'}}>State 1 : 00 / State 2 : 00</span>
+                    <span className='secText secTextColor' style={{marginTop:'9px'}}>State 1 : 00 / State 2 : 00</span>
             </div>
             <div className='separator'/>
             <div className='separator mgLeftAuto' style={{marginRight:'30px'}}/>

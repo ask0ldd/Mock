@@ -60,6 +60,8 @@ main .testsBody {
   padding: 0;
   border: none;
   width: 100%;
+  table-layout: fixed;
+  font-size: 16px;
 }
 
 .testsBody table .customCheckbox {
@@ -73,8 +75,19 @@ main .testsBody {
   background-color: #eaeaea;
 }
 
+.testsBody table .customCheckboxActive {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d13121;
+  border-radius: 4px;
+  background-color: #eaeaea;
+}
+
 .testsBody table tr {
-  height: 45px;
+  height: 50px;
   display: flex;
   flex-direction: row;
 }
@@ -114,8 +127,8 @@ main .testsBody {
 
 .testsBody table thead tr th.checkboxCell,
 .testsBody table tbody tr td.checkboxCell {
-  width: 46px;
-  flex: 0 0 46px;
+  width: 50px;
+  flex: 0 0 50px;
   padding: 0;
   justify-content: center;
 }
@@ -145,12 +158,12 @@ main .testsBody {
 
 .testsBody table .statusIcon,
 .testsBody table .chromeIcon {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
 }
 
 .testsBody .tableFooterContainer {
-  height: 45px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -182,6 +195,10 @@ main .testsBody {
   align-items: center;
 }
 
+.successShadow {
+  box-shadow: (48, 223, 171, 0.38);
+}
+
 .testsBody .paginationContainer .basePaginationButton {
   display: flex;
   width: 30px;
@@ -192,6 +209,7 @@ main .testsBody {
   border: 1px solid #c6c8ca;
   border-radius: 4px;
   cursor: pointer;
+  padding: 1px 1px 0 0;
 }
 
 .testsBody .paginationContainer .active {

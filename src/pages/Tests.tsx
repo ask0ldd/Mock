@@ -23,7 +23,7 @@ function Tests(){
                                 <th className="checkboxCell borderRadiusTopLeft10"><div className="customCheckbox"></div></th>
                                 <th>Column 1</th>
                                 <th>Col 2</th>
-                                <th style={{justifyContent:'center'}}>Col 3</th>
+                                <th style={{justifyContent:'center', width:'100px', flex:'0 0 100px'}}>Col 3</th>
                                 <th>Column 4</th>
                                 <th>Column 5</th>
                                 <th>Column 6</th>
@@ -37,7 +37,7 @@ function Tests(){
                                     <td className="checkboxCell"><div className="customCheckbox"></div></td>
                                     <td>Row {index} Cell 1</td>
                                     <td>Row {index} Cell 2</td>
-                                    <td style={{justifyContent:'center'}}>{index % 3 === 0 ? <img className="statusIcon" src={failure}/> : <img className="statusIcon" src={success}/>}</td>
+                                    <td style={{justifyContent:'center', width:'100px', flex:'0 0 100px'}}>{index % 3 === 0 ? <img className="statusIcon" src={failure}/> : <img className="statusIcon" src={success}/>}</td>
                                     <td>Row {index} Cell 4</td>
                                     <td>Row {index} Cell 5</td>
                                     <td>Row {index} Cell 6</td>
@@ -51,11 +51,11 @@ function Tests(){
                         <label>Showing 1 to 10 of 100 Items</label>
                         <label className="flexAlignCenter">123 Items sélectionnés</label>
                         <div className="flexAlignRight paginationContainer">
-                            <span>Previous</span>
+                            <span style={{marginRight:'7px'}}>Previous</span>
                             <button className="basePaginationButton">1</button>
                             <button className="basePaginationButton active">2</button>
                             <button className="basePaginationButton">3</button>
-                            <span>Next</span>
+                            <span style={{marginLeft:'7px'}}>Next</span>
                         </div>
                     </div>
                 </div>
