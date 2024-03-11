@@ -32,6 +32,20 @@ main .testsBody {
   justify-content: space-between;
 }
 
+.testsBody .titleInputsButtonsContainer input.select {
+  width: 400px;
+  height: 100%;
+  background-color: var(--sec-bg-color);
+  border-radius: 4px;
+  border: 1px solid #cbcbcb;
+  margin-left: auto;
+  padding: 0 20px;
+}
+
+.testsBody .titleInputsButtonsContainer input.select:focus {
+  outline: 1px solid var(--main-orange-color);
+}
+
 .testsBody .tableContainer {
   display: flex;
   flex-direction: column;
@@ -98,19 +112,6 @@ main .testsBody {
   background-color: #fbfbfb;
 }
 
-.testsBody .tableFooterContainer {
-  height: 45px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  background-color: #fbfbfb;
-  border-radius: 0 0 10px 10px;
-  border-width: 0 1px 1px 1px;
-  border-style: solid;
-  border-color: var(--sec-border-color);
-}
-
 .testsBody table thead tr th.checkboxCell,
 .testsBody table tbody tr td.checkboxCell {
   width: 45px;
@@ -139,4 +140,30 @@ main .testsBody {
 .testsBody table thead tr th:last-child {
   border-right: 1px solid var(--sec-border-color);
   border-radius: 0 10px 0 0;
+}
+
+.testsBody .tableFooterContainer {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  background-color: #fbfbfb;
+  border-radius: 0 0 10px 10px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--sec-border-color);
+}
+
+.testsBody .tableFooterContainer > * {
+  display: flex;
+  flex: 1 1 33.33%;
+}
+
+.flexAlignCenter {
+  justify-content: center;
+}
+
+.flexAlignRight {
+  justify-content: flex-end;
 }

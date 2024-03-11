@@ -11,7 +11,7 @@ function Tests(){
             <MainNavBar/>
             <section className='testsBody'>
                 <div className="titleInputsButtonsContainer">
-                    <h1>Tests /</h1><input></input>
+                    <h1>Tests /</h1><input type="text" className="select"></input>
                 </div>
                 <div className="tableContainer">
                     <table>
@@ -46,8 +46,8 @@ function Tests(){
                     </table>
                     <div className="tableFooterContainer">
                         <label>Showing 1 to 10 of 100 Items</label>
-                        <label>123 Items sélectionnés</label>
-                        <div>[1][2][3]</div>
+                        <label className="flexAlignCenter">123 Items sélectionnés</label>
+                        <div className="flexAlignRight">[1][2][3]</div>
                     </div>
                 </div>
             </section>
