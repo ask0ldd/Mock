@@ -44,7 +44,7 @@ function Tests(){
                             )}
                         </tbody>
                     </table>
-                    <div className="tableBottomContainer">
+                    <div className="tableFooterContainer">
                         <label>Showing 1 to 10 of 100 Items</label>
                         <label>123 Items sélectionnés</label>
                         <div>[1][2][3]</div>
