@@ -53,13 +53,13 @@ main .testsBody {
 
 .testsBody table {
   margin-top: 20px;
-  /*border: 1px solid var(--sec-border-color);*/
   background-color: white;
   border-collapse: collapse;
   overflow: hidden;
   border-radius: 10px 10px 0 0;
   padding: 0;
   border: none;
+  width: 100%;
 }
 
 .testsBody table .customCheckbox {
@@ -95,7 +95,7 @@ main .testsBody {
 .testsBody table td,
 .testsBody table th {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   width: fit-content;
   padding: 0 20px;
@@ -114,9 +114,10 @@ main .testsBody {
 
 .testsBody table thead tr th.checkboxCell,
 .testsBody table tbody tr td.checkboxCell {
-  width: 45px;
-  flex: 0 0 45px;
+  width: 46px;
+  flex: 0 0 46px;
   padding: 0;
+  justify-content: center;
 }
 
 .testsBody table tbody tr td:first-child {
@@ -140,6 +141,12 @@ main .testsBody {
 .testsBody table thead tr th:last-child {
   border-right: 1px solid var(--sec-border-color);
   border-radius: 0 10px 0 0;
+}
+
+.testsBody table .statusIcon,
+.testsBody table .chromeIcon {
+  width: 24px;
+  height: 24px;
 }
 
 .testsBody .tableFooterContainer {
@@ -166,4 +173,42 @@ main .testsBody {
 
 .flexAlignRight {
   justify-content: flex-end;
+}
+
+.testsBody .paginationContainer {
+  display: flex;
+  column-gap: 8px;
+  height: 100%;
+  align-items: center;
+}
+
+.testsBody .paginationContainer .basePaginationButton {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #c6c8ca;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.testsBody .paginationContainer .active {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  background: radial-gradient(
+      circle at 65%,
+      rgba(255, 150, 169, 0.6) 0%,
+      var(--main-orange-color) 50%
+    ),
+    var(--main-orange-color);
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
 }
