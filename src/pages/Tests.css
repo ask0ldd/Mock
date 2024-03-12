@@ -160,6 +160,15 @@ main .testsBody {
 .testsBody table .chromeIcon {
   width: 26px;
   height: 26px;
+  border-radius: 100%;
+}
+
+.testsBody table .statusIcon.greenShadow {
+  box-shadow: 0 4px 8px rgba(48, 223, 171, 0.38);
+}
+
+.testsBody table .statusIcon.redShadow {
+  box-shadow: 0 4px 8px rgba(208, 45, 28, 0.2);
 }
 
 .testsBody .tableFooterContainer {

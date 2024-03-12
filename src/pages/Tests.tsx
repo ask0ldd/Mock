@@ -37,7 +37,7 @@ function Tests(){
                                     <td className="checkboxCell"><div className="customCheckbox"></div></td>
                                     <td>Row {index} Cell 1</td>
                                     <td>Row {index} Cell 2</td>
-                                    <td style={{justifyContent:'center', width:'100px', flex:'0 0 100px'}}>{index % 3 === 0 ? <img className="statusIcon" src={failure}/> : <img className="statusIcon" src={success}/>}</td>
+                                    <td style={{justifyContent:'center', width:'100px', flex:'0 0 100px'}}>{index % 3 === 0 ? <img className="statusIcon redShadow" src={failure}/> : <img className="statusIcon greenShadow" src={success}/>}</td>
                                     <td>Row {index} Cell 4</td>
                                     <td>Row {index} Cell 5</td>
                                     <td>Row {index} Cell 6</td>
@@ -59,6 +59,9 @@ function Tests(){
                         </div>
                     </div>
                 </div>
+                <p style={{marginTop:'20px'}}>
+                    Une grid devrait être utilisée à la place des flexboxs pour que les cells de thead et tbody restent sync quelque soit la résolution.
+                </p>
             </section>
         </main>
     </>)
