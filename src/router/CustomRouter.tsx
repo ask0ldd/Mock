@@ -3,6 +3,7 @@ import ActiveFolders from "../pages/ActiveFolders";
 import Users from "../pages/Users";
 import NewUser from '../pages/NewUser';
 import Tests from '../pages/Tests';
+import DashboardErrors from '../pages/DashBoardErrors';
 
 const CustomRouter = () => {
     return(
@@ -13,6 +14,7 @@ const CustomRouter = () => {
                 <Route path='/users' element={<Users/>}/>
                 <Route path='/newuser' element={<NewUser/>}/>
                 <Route path='/tests' element={<Tests/>}/>
+                <Route path='/dashserrors' element={<DashboardErrors/>}/>
                 <Route path='*' element={<ActiveFolders/>}/>
             </Routes>
         </Router>

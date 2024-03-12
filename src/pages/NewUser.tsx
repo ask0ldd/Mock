@@ -12,7 +12,7 @@ return(
             <h1>Main / Sub Crumb</h1>
             <div className='userFormContainer'>
                 <div className="formHeader">
-                    <div className="formStep colors1">
+                    <div style={{borderBottom:'1px solid #B5241F'}} className="formStep colors1">
                         <div className='circle color1 pdr1'>1</div><span className='formStepTitle'>Form Step</span>
                     </div>
                     <div className="formStep colors2">
